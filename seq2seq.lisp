@@ -3,9 +3,10 @@
 ;; eval: (put 'dlet* 'lisp-indent-function 1)
 ;; End:
 
-(py4cl:defpymodule "numpy" nil :lisp-package "NP")
+(py4cl:defpymodule "numpy" nil)
 (py4cl:defpymodule "pickle")
 (py4cl:defpymodule "keras.layers" nil)
+(py4cl:defpymodule "keras.models" nil)
 (py4cL:defpymodule "keras" nil)
 
 (defpackage :seq2seq
