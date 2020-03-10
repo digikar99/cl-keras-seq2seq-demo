@@ -1,3 +1,8 @@
+;; Local Variables:
+;; eval: (put 'defparameters 'lisp-indent-function 0)
+;; eval: (put 'dlet* 'lisp-indent-function 1)
+;; End:
+
 (eval-when (:compile-toplevel :load-toplevel)
   (py4cl2:defpymodule "numpy")
   (py4cl2:defpymodule "pickle")
